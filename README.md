@@ -1,3 +1,5 @@
+Установка https://rawgit.com/mpak2/phpjs/master/functions/array/[функция].js
+
 php.js is a resource that offers community-built JavaScript alternatives to PHP functions.
 
 More info at: http://phpjs.org/about
