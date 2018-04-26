@@ -5,7 +5,7 @@ function array_column(input, column_key, index_key){ // search_value, argStrict
     tmp_obj = {},
     include = true,
     key = 0;
-	if("undefined" == typeof(column_key)){ console.error("Не указан ключ значения массива `column_key`");
+	if("undefined" == typeof(column_key)){ console.error("Не указан обязательный ключ массива `column_key`");
 	}else{
 		for(key in Object(input)){
 			if(!input.hasOwnProperty(key)){// console.error("ОШИБКА ключ `"+ key+ "` не анйден в массиве");
